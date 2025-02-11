@@ -1,0 +1,35 @@
+# 忽略构建目录
+**/build/
+**/dist/
+**/target/
+**/out/
+
+# 忽略 node_modules
+**/node_modules/
+
+# 忽略 lock 文件
+**/Move.lock
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+
+# 忽略特定文件的构建结果 (如果使用)
+**/day02/my_nft/build/
+**/day02/my_nft/tests/build/
+**/day02/my-first-sui-dapp/dist/
+**/day02/my-first-sui-dapp/build/
+
+# 忽略隐藏文件
+.DS_Store
+.idea
+.vscode
+
+# 忽略 IDE 配置文件
+*.iml
+
+# 忽略缓存文件和临时文件
+.cache/
+*.tmp
+*.log
+*.swp
+
